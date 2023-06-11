@@ -1,0 +1,394 @@
+body {
+    background-color: rgba(252,252,235,1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    box-sizing: content-box;
+}
+.header-shadow-box {
+    width: 100%;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.30);
+    transition: background-color 300ms linear;
+}
+.top-info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1655px;
+    margin: 0 auto;
+}
+.small-info {
+    padding-top: 25px;
+    font-family: 'FuturaPT-Bold'; 
+    font-size: 14px;
+}
+.small-book-info {
+    font-family: 'FuturaPT-Book'; 
+}
+.logo {
+    padding-top: 25px;
+    width: 80px;
+    height: 80px;
+}
+.nav-list {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 60px;
+    list-style-type: none;
+}
+.nav-link {
+    font-family: 'FuturaPT-Bold'; 
+    font-size: 19px;
+    color: #000000;
+    text-decoration: none;
+}
+.nav-item a {
+    transition: 200ms linear;
+}
+.nav-link:hover {
+    color: #92cc72;
+}
+.nav-button {
+    background-color: rgba(28,28,28,0);
+    border: none;
+    display: none;
+}
+.header-name {
+    padding: 20px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Arial-BoldMT';
+    display: none;
+}
+.button {
+    filter: invert(1);
+    width: 70px;
+    height: 70px;
+}
+
+
+.description {
+    padding: 45px 0;
+}
+.general-container {
+    display: flex;
+    justify-content: center;
+}
+.big-logo {
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+}
+.title {
+    padding-bottom: 0px;
+    color: #000000;
+    font-size: 51px;
+    font-family: 'Arial-BoldMT';
+}
+.green-box {
+    background: #92cc72;
+    max-width: 900px;
+}
+.green-box p {
+    padding: 20px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'ArialMT';
+}
+.description-phone {
+    display: none;
+}
+
+
+.description-phone {
+    padding: 45px 0;
+}
+.general-container-phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sub-container-phone {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.big-logo-phone {
+    padding-right: 55px;
+    width: 180px;
+    height: 180px;
+}
+.title-phone {
+    max-width: 490px;
+    display: inline;
+    padding-bottom: 0px;
+    color: #000000;
+    font-size: 55px;
+    font-family: 'ArialMT';
+}
+.green-box-phone {
+    margin: 0 auto;
+    background: #92cc72;
+    max-width: 740px;
+}
+.green-box-phone p {
+    padding: 0 30px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'ArialMT';
+}
+
+
+.photo-container {
+    padding-right: 25px;
+}
+.bottom-dogs {
+    width: 520px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.green-box-about {
+    background: #92cc72;
+    max-width: 648px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'ArialMT';
+}
+.green-box-about p,.green-box-about h1  {
+    padding-left: 20px;
+}
+
+
+.about-phone {
+    display: none;
+}
+.right-dogs-phone {
+    padding-left: 20px;
+    height: 528px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.green-box-about-phone {
+    background: #92cc72;
+    max-width: 470px;
+    color: #ffffff;
+    font-size: 27px;
+    font-family: 'ArialMT';
+}
+.green-box-about-phone p,.green-box-about-phone h1  {
+    padding-left: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+.round-button {
+    padding: 0px 88px;
+    padding-top: 58px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.round-button p {
+    padding-top: 14px;
+    height: 160px;
+    width: 160px;
+}
+.button-layout-text {
+    max-width: 1350px;
+    display: flex;
+    flex-direction: row;
+}
+.button-layout-text p {
+    padding: 0 60px;
+    color: #000000;
+    font-size: 26px;
+    font-family: 'Arial-BoldMT';
+}
+
+
+.buttons-layout-phone {
+    display: none;
+    
+}
+.round-button-phone {
+    padding: 0px 35px;
+    padding-top: 58px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button-layout-text-phone {
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+}
+.button-layout-text-phone p {
+    color: #000000;
+    font-size: 26px;
+    font-family: 'Arial-BoldMT';
+}
+
+
+.people {
+    width: 1195px;
+}
+
+.svgbottom {
+    width: 100%;
+    fill: rgb(146, 204, 114);
+}
+.green-box-bottom {
+    height: 300px;
+    width: 100%;
+    margin-top: -6px;
+    background: #92cc72;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bottom-logo {
+    max-width: 120px;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'ArialMT';
+}
+.bottom-logo br {
+    line-height: 150%;
+}
+.bottom-href {
+    padding-left: 180px;
+    display: flex;
+    flex-direction: column;
+}
+.bottom-href h5 {
+    color: #000000;
+    font-size: 18px;
+    font-family: 'ArialMT';
+}
+.bottom-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'ArialMT';
+}
+.bottom-href br {
+    line-height: 150%;
+}
+
+@media (max-width: 1150px) {
+    /* работа с навигационной панелью */
+    .top-info {
+        display: none;
+    }
+    .nav {
+        display: none;
+    }
+    .nav-button {
+        display: block;
+    }
+    .header-name {
+        display: block;
+    }
+    .header {
+        padding-top: 5px;
+    }
+    .header-shadow-box {
+        display: flex;
+        justify-content: space-between;
+        background: #92cc72;;
+    }
+    /* работа с секцией "отписание" */
+    .description {
+        display: none;
+    }
+    .description-phone {
+        display: block;
+    }
+    /* работа с секцией "о приюте" */
+    .about {
+        display: none;
+    }
+    .about-phone {
+        display: block;
+    }
+    /* работа с секцией "круглые кнопки" */
+    .buttons-layout {
+        display: none;
+    }
+    .buttons-layout-phone {
+        display: block;
+    }
+    /* работа с секцией "графические элементы" */
+    .people {
+        width: 743px;
+    }
+    /* работа с секцией "низ" */
+    .bottom-href {
+        padding-left: 70px;
+    }
+}
+
+
+
+
+@font-face {
+    font-family: "FururaPT-ExtraBoldObl"; 
+    src: url("../fonts/FuturaPT-ExtraBoldObl.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+@font-face {
+    font-family: "FuturaPT-Medium"; 
+    src: url("../fonts/FuturaPT-Medium.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "FuturaPT-Bold"; 
+    src: url("../fonts/FuturaPT-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "FuturaPT-Light"; 
+    src: url("../fonts/FuturaPT-Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "FuturaPT-Demi"; 
+    src: url("../fonts/FuturaPT-Demi.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "FuturaPT-Book"; 
+    src: url("../fonts/FuturaPT-Book.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "ArialMT"; 
+    src: url("../fonts/ArialMT.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "Arial-BoldMT"; 
+    src: url("../fonts/Arial-BoldMT.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
