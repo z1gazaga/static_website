@@ -1,0 +1,405 @@
+body {
+    background-image: url("https://static.tildacdn.com/tild3834-3465-4962-b030-373533303438/noroot.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-info-block {
+position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5); /* цвет затемнения */
+}
+.nav {
+    background-color: #92cc72;
+    margin: 20px 20px;
+    padding: 15px;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.nav-item,.nav-item-main {
+    list-style-type: none;
+}
+.nav-item {
+    margin-top: 5px;
+}
+.nav-link,.nav-link-now,.nav-link-main {
+    margin: 0 25px;
+    font-family: 'FuturaPT-Medium'; 
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav-link-now {
+    color:#bfdcb0;
+}
+.nav-link-main {
+    font-family: 'FuturaPT-Bold';
+    font-size: 22px;
+}
+.nav-link,.nav-link-main { 
+    transition: 200ms linear;
+}
+.nav-link:hover,.nav-link-main:hover {
+    color: #000000;
+}
+.welcome-text {
+    margin-top: 35vh;
+}
+.column-container {
+    text-align: center;
+    max-width: 45vw;
+    margin: auto;
+}
+.column-container h1 {
+    font-family: 'FuturaPT-Medium'; 
+    font-size: 62px;
+    color: #ffffff;
+    margin-bottom: 3vh;
+}
+.column-container p {
+    font-family: 'FuturaPT-Book';
+    color: #ffffff;
+    margin-bottom: 3vh;
+}
+.column-container h3,.column-container h5 {
+    font-family: 'FuturaPT-Light';
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 4vh;
+}
+
+
+.how-to-become {
+    margin-top: 100vh;
+    width: 100%;
+    background-color: white;
+}
+.top-text-block {
+    padding-top: 90px;
+    color: #000000;
+    text-align: center;
+}
+.top-text-block h1 {
+    font-family: 'FuturaPT-Book';
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+.top-text-block h2 {
+    margin: auto;
+    margin-bottom: 100px;
+    font-family: 'FuturaPT-Light';
+    font-size: 30px;
+    max-width: 600px;
+}
+.info-column-container {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    height: 160px;
+}
+.right-element {
+    max-width: 700px;;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 50vw;
+}
+.list-text-container {
+    margin-left: 120px;
+    max-width: 400px;
+}
+.right-element h5 {
+    text-align: right;
+    font-family: 'FuturaPT-Book';
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.right-element p {
+    margin-top: -25px;
+    font-family: 'FuturaPT-Light';
+    font-size: 14px;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    background: #222;
+    border: 2px solid #fff;
+    position: absolute;
+    left: 50vw;
+    right: 50vw;
+    transform: translate(-50%, -50%);
+}
+.line {
+    background-color: #e0e0e0;
+    width: 2px;
+    position: absolute;
+    left: 50vw;
+    height: 170px;
+}
+
+
+.info-column-container-l {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    height: 160px;
+}
+.left-element {
+    max-width: 700px;;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-right: 50vw;
+}
+.left-element h5 {
+    text-align: right;
+    font-family: 'FuturaPT-Book';
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.left-element p {
+    margin-top: -25px;
+    font-family: 'FuturaPT-Light';
+    font-size: 14px;
+}
+.list-text-container-l {
+    margin-right: 120px;
+    max-width: 400px;
+}
+
+.contact_us {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contact-text-box {
+    text-align: center;
+    margin-bottom: 10vh;
+}
+.contact-text-box h1 {
+    font-family: 'FuturaPT-Book';
+    font-size: 45px;
+    margin-bottom: 2vh
+}
+.contact-text-box a {
+    font-family: 'FuturaPT-light';
+    font-size: 25px;
+    color: black;
+}
+.contact-text-box a:visited {
+    color: black;
+}
+
+.bottom {
+    padding-top: 5vh;
+    padding-bottom: 7vh;
+    background-color: #92cc72;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icons a {
+    padding: 0 20px;
+}
+.icons-phone {
+    display: none;
+}
+.bottom-text-box {
+    margin-top: 2vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.caad {
+    font-family: 'FuturaPT-Book';
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+.adr,.hz {
+    font-family: 'FuturaPT-Light';
+    font-size: 15px;
+    color: #ffffff;
+}
+.hz {
+    margin-top: 10px;
+}
+
+/* для адаптива */
+
+.nav-button {
+    background-color: rgba(28,28,28,0);
+    border: none;
+    display: none;
+}
+.header-name {
+    padding: 20px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Arial-BoldMT';
+    display: none;
+}
+.button {
+    filter: invert(1);
+    width: 70px;
+    height: 70px;
+}
+.info-phone-container {
+    display: none;
+}
+
+
+@media (max-width: 1150px) {
+    .nav-list {
+        display: none;
+    }
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav-button {
+        display: block;
+    }
+    .header-name {
+        display: block;
+    }
+    .welcome-text {
+        margin-top: 18vh;
+      }
+    .column-container {
+        max-width: 80vw;
+    }
+    .column-container h1 {
+        font-size: 150px;
+    }
+    .column-container h3, .column-container h5 {
+        font-size: 45px;
+    }
+    .top-text-block h1 {
+        font-size: 115px;
+    }
+    .top-text-block h2 {
+        font-size: 60px;
+    }
+    .contact-text-box h1 {
+        font-size: 115px;
+    }
+    .contact-text-box a {
+        font-size: 70px;
+    }
+    .caad {
+        font-size: 76px;
+    }
+    .adr, .hz {
+        font-size: 35px;
+    }
+    .info-phone-container {
+        display: block;
+    }
+    .info-column-container,.info-column-container-l {
+        display: none;
+    }
+    .right-element {
+        max-width: 700px;
+        margin-left: 10vw;
+    }
+    .line {
+        width: 4px;
+        left: 10vw;
+        height: 336px;
+    }
+    .list-text-container {
+        margin-left: 120px;
+        max-width: 550px;
+    }
+    .right-element h5 {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .right-element p {
+        font-size: 23px;
+        margin-bottom: 2vh;
+    }
+    .circle {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 10vw;
+        right: 50vw;
+        transform: translate(-50%, -50%);
+    }
+    .contact_us {
+        margin-top: 4vh;
+    }
+}
+
+
+@font-face {
+    font-family: "FururaPT-ExtraBoldObl"; 
+    src: url("../fonts/FuturaPT-ExtraBoldObl.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+@font-face {
+    font-family: "FuturaPT-Medium"; 
+    src: url("../fonts/FuturaPT-Medium.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "FuturaPT-Bold"; 
+    src: url("../fonts/FuturaPT-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "FuturaPT-Light"; 
+    src: url("../fonts/FuturaPT-Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "FuturaPT-Demi"; 
+    src: url("../fonts/FuturaPT-Demi.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "FuturaPT-Book"; 
+    src: url("../fonts/FuturaPT-Book.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "ArialMT"; 
+    src: url("../fonts/ArialMT.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "Arial-BoldMT"; 
+    src: url("../fonts/Arial-BoldMT.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
