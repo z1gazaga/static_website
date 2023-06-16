@@ -27,6 +27,7 @@ html {
     justify-content: center;
     flex-direction: row;
     margin: 0;
+    padding: 0;
 }
 
 .nav-item,.nav-item-main {
@@ -288,3 +289,53 @@ html {
         font-size: 35px;
     }
 }
+
+
+@font-face {
+    font-family: "FururaPT-ExtraBoldObl"; 
+    src: url("../fonts/FuturaPT-ExtraBoldObl.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+@font-face {
+    font-family: "FuturaPT-Medium"; 
+    src: url("../fonts/FuturaPT-Medium.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "FuturaPT-Bold"; 
+    src: url("../fonts/FuturaPT-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "FuturaPT-Light"; 
+    src: url("../fonts/FuturaPT-Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "FuturaPT-Demi"; 
+    src: url("../fonts/FuturaPT-Demi.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "FuturaPT-Book"; 
+    src: url("../fonts/FuturaPT-Book.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "ArialMT"; 
+    src: url("../fonts/ArialMT.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "Arial-BoldMT"; 
+    src: url("../fonts/Arial-BoldMT.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
