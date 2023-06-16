@@ -1,0 +1,289 @@
+body {
+    text-align: center;
+}
+
+html {
+    background-color: rgba(252,252,235,1);
+}
+
+
+.main-info-block {
+    position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+}
+
+.nav {
+    background-color: #92cc72;
+    margin: 20px 20px;
+    padding: 15px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.nav-item,.nav-item-main {
+    list-style-type: none;
+}
+
+.nav-item {
+    margin-top: 5px;
+}
+
+.nav-link,.nav-link-now,.nav-link-main {
+    margin: 0 25px;
+    font-family: 'FuturaPT-Medium'; 
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-link-now {
+    color:#bfdcb0;
+}
+
+.nav-link-main {
+    font-family: 'FuturaPT-Bold';
+    font-size: 22px;
+}
+
+.nav-link,.nav-link-main { 
+    transition: 200ms linear;
+}
+
+.nav-link:hover,.nav-link-main:hover {
+    color: #000000;
+}
+
+.nav-button {
+    background-color: rgba(28,28,28,0);
+    border: none;
+    display: none;
+}
+.header-name {
+    padding: 20px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Arial-BoldMT';
+    display: none;
+}
+
+.button {
+    filter: invert(1);
+    width: 70px;
+    height: 70px;
+}
+
+.t-align_center {
+    text-align: center;
+}
+
+.t-margin_auto {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.t-title {
+    font-family: 'FuturaPT',Arial,sans-serif;
+    font-weight: 600;
+    color: #000000
+}
+
+.t-title_lg {
+    font-size: 64px;
+    line-height: 1.23
+}
+
+.t469__descr {
+    margin-top: 40px;
+    text-overflow: ellipsis
+}
+
+.t-descr_1 {
+    font-size: 20px;
+    line-height: 1.55
+}
+
+.t-descr {
+    font-family: 'FuturaPT',Arial,sans-serif;
+    font-weight: 300;
+    color: #000000
+}
+
+.t-cont {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0
+}
+
+.t-rec_2 {
+    padding-bottom: 15px
+}
+
+.t-rec {
+    padding-top: 45px
+}
+
+.id1 {
+    padding-top: 45px;
+    padding-bottom: 15px;
+    background-color: #fcfceb;
+}
+
+.id2 {
+    padding-top: 15px;
+    padding-bottom: 0px;
+    background-color: #fcfceb;
+}
+
+.t-rec_3 {
+    padding-bottom: 0
+}
+
+.t-col_2 {
+    max-width: 1160px
+}
+
+@media screen and (max-width: 960px) {
+    .t-cont {
+        max-width:640px
+    }
+    .t-col {
+        display: block;
+        float: none;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box
+    }
+    .t-col_1{
+        width: 100%;
+        max-width: 100%;
+    }
+    .t-col_2{
+        width: 100%;
+        max-width: 100%;
+    }
+    .t-prefix {
+        padding-left: none;
+    }
+}
+
+.textt__title {
+    margin-bottom: 40px
+}
+
+.bottom {
+    padding-top: 5vh;
+    padding-bottom: 7vh;
+    background-color: #92cc72;
+}
+.bottom-text-box {
+    margin-top: 2vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.caad {
+    font-family: 'FuturaPT-Book';
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+.adr,.hz {
+    font-family: 'FuturaPT-Light';
+    font-size: 15px;
+    color: #ffffff;
+}
+.hz {
+    margin-top: 10px;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icons a {
+    padding: 0 20px;
+}
+.icons-phone {
+    display: none;
+}
+.bottom-text-box {
+    margin-top: 2vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .t-cont {
+        max-width:960px;
+        padding: 0
+    }
+    .t-title_lg {
+        font-size: 60px
+    }
+    .t-descr_1 {
+        font-size: 18px
+    }
+    .t-col {
+        display: inline;
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%
+    }
+    .t-col_1{
+        max-width: 640px;
+    }
+    .t-col_2 {
+        max-width: 940px
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .t-title_lg {
+        font-size: 30px
+    }
+    .t-descr_1 {
+        font-size: 16px;
+        line-height: 1.45
+    }
+}
+
+@media (max-width: 1150px) {
+    .nav-list {
+        display: none;
+    }
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav-button {
+        display: block;
+    }
+    .header-name {
+        display: block;
+    }
+    .caad {
+        font-size: 76px;
+    }
+    .adr, .hz {
+        font-size: 35px;
+    }
+}

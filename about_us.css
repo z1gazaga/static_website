@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.main-info-block {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.nav {
+  background-color: #92cc72;
+  margin: 20px 20px;
+  padding: 15px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.nav-item,.nav-item-main {
+  list-style-type: none;
+}
+
+.nav-item {
+  margin-top: 5px;
+}
+
+.nav-link,.nav-link-now,.nav-link-main {
+  margin: 0 25px;
+  font-family: 'FuturaPT-Medium'; 
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-link-now {
+  color:#bfdcb0;
+}
+
+.nav-link-main {
+  font-family: 'FuturaPT-Bold';
+  font-size: 22px;
+}
+
+.nav-link,.nav-link-main { 
+  transition: 200ms linear;
+}
+
+.nav-link:hover,.nav-link-main:hover {
+  color: #000000;
+}
+
+.nav-button {
+  background-color: rgba(28,28,28,0);
+  border: none;
+  display: none;
+}
+.header-name {
+  padding: 20px;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Arial-BoldMT';
+  display: none;
+}
+
+.button {
+  filter: invert(1);
+  width: 70px;
+  height: 70px;
+}
+
+.bottom {
+  padding-top: 5vh;
+  padding-bottom: 7vh;
+  background-color: #92cc72;
+}
+.bottom-text-box {
+  margin-top: 2vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.caad {
+  font-family: 'FuturaPT-Book';
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.adr,.hz {
+  font-family: 'FuturaPT-Light';
+  font-size: 15px;
+  color: #ffffff;
+}
+.hz {
+  margin-top: 10px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icons a {
+  padding: 0 20px;
+}
+.icons-phone {
+  display: none;
+}
+.bottom-text-box {
+  margin-top: 2vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 1150px) {
+  .nav-list {
+      display: none;
+  }
+  .nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .nav-button {
+      display: block;
+  }
+  .header-name {
+      display: block;
+  }
+  .caad {
+      font-size: 76px;
+  }
+  .adr, .hz {
+      font-size: 35px;
+  }
+}
+
+body {
+  background-color: rgba(252, 252, 235, 1); /* задаем цвет фона */
+  /*background-color: #92cc72;*/
+  font-family: Trebuchet MS, Helvetica;
+}
+
+*#top {
+  background-image: url(https://thumb.tildacdn.com/tild6662-3731-4566-b861-373935623466/-/format/webp/noroot.png);
+  background-blend-mode: multiply;
+  background-color: #c4c5c4;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media (min-width: 1001px) {
+  #top {
+    font-size: 3em;
+    height: 1000px;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 651px) {
+  #top {
+    font-size: 2em;
+    height: 600px;
+  }
+}
+
+@media (max-width: 650px) {
+  #top {
+    font-size: 1.3em;
+    padding-top: 50%;
+    height: 500px;
+  }
+}
+
+@media (max-width: 450px) {
+  #top {
+    font-size: 0.9em;
+  }
+}
+
+#about_us {
+  background-color: rgba(252, 252, 235, 1);
+  border-top: 2px solid #71a068;
+  width: 100%;
+  float: left;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+@media (min-width: 801px) {
+  #about_us div {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    float: left;
+  }
+}
+
+@media (max-width: 800px) {
+  #about_us div {
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+  }
+}
+
+.title {
+  font-weight: lighter;
+  color: #92cc72;
+  margin-bottom: 20px;
+  font-size: 2.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 1.3em;
+  font-weight: bold;
+  background-color: #71a068;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+  color: #1e501d;
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.container {
+  display: inline-block;
+  text-align: justify;
+  width: 70%;
+  border-style: groove;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(199, 255, 143);
+  border-width: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.main {
+  text-align: center;
+}
+
+.title1 {
+  font-weight: lighter;
+  color: #92cc72;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+@media (min-width: 801px) {
+  #container div {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    float: center;
+  }
+}
+
+@media (max-width: 800px) {
+  #container div {
+    width: 80%;
+    margin-left: 10%;
+    float: center;
+  }
+}
+
+.thumb img {
+  border: 2px solid #ffffff;
+  padding: 5px;
+  background: #92cc72;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 300px;
+  height: 300px;
+}
