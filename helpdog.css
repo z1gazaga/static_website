@@ -10,6 +10,8 @@ body{
 h1{
     text-align: center;
     padding: 200px;
+    color: #eae4ba;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .headerL{
     text-align: center;
@@ -21,6 +23,7 @@ span{
 h2{
     text-align: center;
     font-style:bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .container{
     display: inline-block;
@@ -32,6 +35,7 @@ h2{
     border-width: 5px;
     padding: 20px;
     margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .main{
     background-color: rgb(239, 243, 210);
@@ -43,7 +47,9 @@ ul{
 .m{
     text-align: center;
 }
-
+li{
+    margin: 3px;
+}
 .main-info-block {
     position: absolute;
       top: 0;
