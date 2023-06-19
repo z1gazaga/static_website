@@ -3,6 +3,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+* { 
+    margin: 0;
+    padding: 0;
+}
 
 .headerGl {
     padding-top: 30px;
@@ -258,6 +262,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 60px;
 }
 .bottom-logo {
     max-width: 120px;
